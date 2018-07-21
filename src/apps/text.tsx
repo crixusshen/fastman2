@@ -5,9 +5,7 @@
  * @LastEditTime: 2018-07-04 12:29:28
  * @Description: Text
  */
-// import React, { PureComponent, } from 'react'
-import React from 'react'
-import { PureComponent, } from 'react'
+import React, { PureComponent, } from 'react'
 import {
     View,
     Text,
@@ -27,7 +25,7 @@ interface stateTypes {
 
 }
 
-export default class TextComponent extends PureComponent<propsTypes, stateTypes> {
+export default class TextComponent extends Component<propsTypes, stateTypes> {
 
     // 初始化props
     static defaultProps = {

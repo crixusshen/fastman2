@@ -15,6 +15,7 @@
     "react-navigation": "*"
   },
   "dependencies": {
+    "@fastman2/component-radio": "^1.0.0",
     "react": "16.3.1"
   }
 }

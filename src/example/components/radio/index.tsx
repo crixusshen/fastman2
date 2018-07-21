@@ -9,7 +9,7 @@ import React, { Component, } from 'react'
 import {
     Text,
 } from 'react-native'
-import { RadioGroup, RadioButton, } from '../../../shared/components/radio'
+import { RadioGroup, RadioButton, } from '@fastman2/component-radio'
 import BaseViewComponent from '../base/baseViewComponent'
 
 // 定义props类型
