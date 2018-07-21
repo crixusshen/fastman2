@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
+    "react": "*",
     "react-art": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-native": "0.55.4"
