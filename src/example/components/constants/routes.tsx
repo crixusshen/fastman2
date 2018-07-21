@@ -61,7 +61,7 @@ import AnimatedModal from '../animatedModal'
 const routes: RouteRuleType = {
     HomeScreen: {
         screen: Home,
-        path: '/demo',
+        path: '/navigator',
         navigationOptions: () => ({
             headerTitle: 'Hello Fastman2',
         }),

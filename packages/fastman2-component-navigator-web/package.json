@@ -1,0 +1,28 @@
+{
+  "name": "@fastman2/component-navigator-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/appsNavigator.web.js",
+  "scripts": {
+    "prepare": "tsc -p tsconfig.build.json & css-files-copy",
+    "css-files-copy": "cpy ./src/*.css ./lib"
+  },
+  "keywords": [],
+  "author": "shenzhiwei",
+  "license": "ISC",
+  "peerDependencies": {
+    "react-native": "*",
+    "react-art": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-transition-group": "^2.0.11"
+  },
+  "devDependencies": {
+    "cpy-cli": "^2.0.0"
+  }
+}

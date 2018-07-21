@@ -1,0 +1,37 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "node server.js --env=dev --define=dev --define=exampleComponent"
+  },
+  "keywords": [],
+  "author": "shenzhiwei",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "^4.0.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "open": "^0.0.5",
+    "postcss-loader": "^2.1.6",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "vconsole": "^3.2.0",
+    "vconsole-webpack-plugin": "^1.4.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4",
+    "yargs": "^12.0.1",
+    "typescript": "^2.9.2"
+  }
+}

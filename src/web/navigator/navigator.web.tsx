@@ -9,7 +9,7 @@
 import React from 'react'
 import { AppRegistry } from 'react-native'
 // 通过路由加载入口
-import App from './components/navigator'
+import App from './index'
 
 AppRegistry.registerComponent('fastman2', () => App)
 AppRegistry.runApplication('fastman2', {
