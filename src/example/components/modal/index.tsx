@@ -11,7 +11,7 @@ import {
     Text,
     Button,
 } from 'react-native'
-import { Modal, } from '../../../shared/components/modal'
+import { Modal, } from '@fastman2/component-modal'
 import styles from './styles'
 import BaseViewComponent from '../base/baseViewComponent';
 
