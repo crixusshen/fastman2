@@ -7,7 +7,7 @@
     "prepare": "tsc -p tsconfig.build.json"
   },
   "keywords": [],
-  "author": "",
+  "author": "shenzhiwei",
   "license": "ISC",
   "peerDependencies": {
     "react": "16.3.1",

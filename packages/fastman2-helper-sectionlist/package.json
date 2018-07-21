@@ -7,6 +7,6 @@
     "prepare": "tsc -p tsconfig.build.json"
   },
   "keywords": [],
-  "author": "",
+  "author": "shenzhiwei",
   "license": "ISC"
 }

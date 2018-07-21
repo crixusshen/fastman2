@@ -6,11 +6,10 @@
  * @Description: Navigator
  */
 import * as React from 'react';
-import { View, StyleSheet, Text, } from 'react-native';
 // 加载路由规则配置文件
-import routes, { navigatorConfig, } from '../constants/routes'
+import routes, { navigatorConfig, } from '../../example/components/constants/routes'
 // 路由加载标签
-import Router from '../../../shared/components/navigator/appsNavigator'
+import Router from './appsNavigator'
 
 export interface AppProps {
 }
