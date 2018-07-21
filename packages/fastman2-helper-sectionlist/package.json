@@ -1,0 +1,12 @@
+{
+  "name": "@fastman2/helper-sectionlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/getItemLayout.js",
+  "scripts": {
+    "prepare": "tsc -p tsconfig.build.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

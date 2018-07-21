@@ -20,7 +20,7 @@ import BasePureListViewComponent, {
 } from '../base/basePureListViewComponent'
 import styles from '../flatList/styles'
 // sectionlist的getItemLayout的统一封装
-import sectionListGetItemLayout, { Parameters, } from '../../../shared/helpers/sectionlist/getItemLayout'
+import sectionListGetItemLayout, { Parameters, } from '@fastman2/helper-sectionlist'
 
 export interface AppProps {
 }
