@@ -11,7 +11,7 @@ import {
     Text,
     TouchableOpacity,
 } from 'react-native'
-import AnimatedModal from '../../../shared/components/animatedModal'
+import AnimatedModal from '@fastman2/component-animated-modal'
 import BaseViewComponent from '../base/baseViewComponent';
 import styles from './styles'
 

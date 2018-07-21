@@ -52,8 +52,8 @@ import Picker from '../picker'
 import Radio from '../radio'
 // Modal
 import Modal from '../modal'
-// // AnimatedModal
-// import AnimatedModal from '../animatedModal'
+// AnimatedModal
+import AnimatedModal from '../animatedModal'
 
 /**
  * 配置路由规则（建议路由名称采用首字母大写规范+'Screen'）
@@ -157,13 +157,13 @@ const routes: RouteRuleType = {
             headerTitle: 'Modal',
         }),
     },
-    // AnimatedModalScreen: {
-    //     screen: AnimatedModal,
-    //     path: '/animatedmodal',
-    //     navigationOptions: () => ({
-    //         headerTitle: 'AnimatedModal',
-    //     }),
-    // },
+    AnimatedModalScreen: {
+        screen: AnimatedModal,
+        path: '/animatedmodal',
+        navigationOptions: () => ({
+            headerTitle: 'AnimatedModal',
+        }),
+    },
 }
 
 // 导航配置
