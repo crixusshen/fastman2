@@ -1,5 +1,6 @@
-import React from 'react';
-import { AppRegistry } from 'react-native';
-import App from './navigator';
+import React from 'react'
+import { AppRegistry } from 'react-native'
+// 一个示例应用
+import ExampleApp from './routes/example.rule'
 
-AppRegistry.registerComponent('apps', () => App);
+AppRegistry.registerComponent('apps', () => ExampleApp)

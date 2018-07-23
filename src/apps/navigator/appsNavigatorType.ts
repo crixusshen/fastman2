@@ -2,7 +2,7 @@
  * @Author: shenzhiwei
  * @Date: 2018-07-11 10:42:26
  * @LastEditors: shenzhiwei
- * @LastEditTime: 2018-07-13 16:20:05
+ * @LastEditTime: 2018-07-23 10:57:54
  * @Description: AppsNavigatorType
  */
 import React, { Component, PureComponent, } from 'react'
@@ -30,7 +30,7 @@ export type StackNavigatorConfig = {
     // 控制路由转场的动画效果配置
     transitionConfig?: any,
     // 全局导航参数配置，它会覆盖单个路由上的navigationOptions配置
-    navigationOptions: {[key: string]: any},
+    navigationOptions?: {[key: string]: any},
 }
 
 // 导航封装标签传入的类型值

@@ -7,7 +7,7 @@
  */
 import * as React from 'react';
 // 加载路由规则配置文件
-import routes, { navigatorConfig, } from './routes'
+import routes, { navigatorConfig, } from '../../example/components/constants/routes'
 // 路由加载标签
 import Router from './appsNavigator.web'
 

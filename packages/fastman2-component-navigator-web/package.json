@@ -4,8 +4,7 @@
   "description": "",
   "main": "lib/appsNavigator.web.js",
   "scripts": {
-    "prepare": "tsc -p tsconfig.build.json & css-files-copy",
-    "css-files-copy": "cpy ./src/*.css ./lib"
+    "prepare": "tsc -p tsconfig.build.json & cpy ./src/*.css ./lib"
   },
   "keywords": [],
   "author": "shenzhiwei",
@@ -21,8 +20,5 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-transition-group": "^2.0.11"
-  },
-  "devDependencies": {
-    "cpy-cli": "^2.0.0"
   }
 }
