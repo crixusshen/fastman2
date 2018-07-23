@@ -2,7 +2,7 @@
  * @Author: shenzhiwei
  * @Date: 2018-06-23 16:44:52
  * @LastEditors: shenzhiwei
- * @LastEditTime: 2018-06-23 16:44:52
+ * @LastEditTime: 2018-07-23 12:10:53
  * @Description: WebpackDevServer配置
  */
 const webpack = require('webpack');
@@ -19,5 +19,5 @@ new WebpackDevServer(webpack(config), config.devServer)
   }
   console.log('Listening at localhost:' + defaultSettings.port);
   console.log('Opening your system browser...');
-  open('http://localhost:' + defaultSettings.port + '/example');
+  open('http://localhost:' + defaultSettings.port + '/routes');
 });

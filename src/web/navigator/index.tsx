@@ -2,22 +2,28 @@
  * @Author: shenzhiwei
  * @Date: 2018-07-10 16:10:29
  * @LastEditors: shenzhiwei
- * @LastEditTime: 2018-07-11 08:39:36
+ * @LastEditTime: 2018-07-23 12:11:23
  * @Description: Navigator
  */
-import * as React from 'react';
-// 加载路由规则配置文件
-import routes, { navigatorConfig, } from '../../example/components/constants/routes'
+import * as React from 'react'
 // 路由加载标签
-import Router from './appsNavigator.web'
+import Router, { RouteRuleType, } from './appsNavigator.web'
 
-export interface AppProps {
-}
+export default class BaseWebNavigator<P, S> extends React.PureComponent<P, S> {
 
-export default class App extends React.PureComponent<AppProps, any> {
+    /**
+     * 路由规则定义
+     */
+    get routes(): RouteRuleType {
+        return {
+
+        }
+    }
+
     render() {
         return (
-            <Router routes={routes} navigatorConfig={navigatorConfig} />
-        );
+            <Router routes={this.routes} />
+        )
     }
+
 }

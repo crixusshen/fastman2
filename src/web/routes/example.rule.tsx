@@ -1,11 +1,12 @@
 /*
  * @Author: shenzhiwei
- * @Date: 2018-07-23 09:07:17
+ * @Date: 2018-07-23 11:16:57
  * @LastEditors: shenzhiwei
- * @LastEditTime: 2018-07-23 12:15:29
+ * @LastEditTime: 2018-07-23 12:09:32
  * @Description: example.route.rule
  */
-import BaseAppsNavigator from "../navigator"
+import { AppRegistry } from 'react-native'
+import BaseWebNavigator from "../navigator"
 
 // Home
 import Home from '../../../src/example/components/home'
@@ -41,8 +42,8 @@ import AnimatedModal from '../../../src/example/components/animatedModal'
 export interface AppProps {
 }
 
-export default class ExampleApp extends BaseAppsNavigator<AppProps, any> {
-
+class ExampleApp extends BaseWebNavigator<AppProps, any> {
+    
     /**
      * 路由规则定义
      */
@@ -50,7 +51,7 @@ export default class ExampleApp extends BaseAppsNavigator<AppProps, any> {
         return {
             HomeScreen: {
                 screen: Home,
-                path: '/navigator',
+                path: '/routes',
                 navigationOptions: () => ({
                     headerTitle: 'Hello Fastman2',
                 }),
@@ -156,16 +157,10 @@ export default class ExampleApp extends BaseAppsNavigator<AppProps, any> {
         }
     }
 
-    // /**
-    //  * 导航配置定义
-    //  */
-    // get navigatorConfig() {
-    //     return {
-    //         initialRouteName: 'HomeScreen',
-    //         // navigationOptions: {
-
-    //         // },
-    //     }
-    // }
-
 }
+
+AppRegistry.registerComponent('fastman2', () => ExampleApp)
+AppRegistry.runApplication('fastman2', {
+    initialProps: {},
+    rootTag: document.getElementById('page-group') 
+})

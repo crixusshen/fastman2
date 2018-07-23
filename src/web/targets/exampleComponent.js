@@ -18,7 +18,8 @@ module.exports = class exampleComponent extends baseComponent {
 
         // 业务组件逻辑脚本入口文件定义
         this.webComponents = Object.assign(this.webComponents, {
-            'example': './navigator/navigator.web',
+            // 'example': './navigator/navigator.web',
+            'example': './routes/example.rule',
         })
     }
 };

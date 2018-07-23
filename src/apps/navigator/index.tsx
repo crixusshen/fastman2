@@ -2,7 +2,7 @@
  * @Author: shenzhiwei
  * @Date: 2018-07-10 16:10:29
  * @LastEditors: shenzhiwei
- * @LastEditTime: 2018-07-23 11:07:23
+ * @LastEditTime: 2018-07-23 11:28:31
  * @Description: Navigator
  */
 import * as React from 'react'
@@ -66,6 +66,7 @@ export default class BaseAppsNavigator<P, S> extends React.PureComponent<P, S> {
     render() {
         return (
             <Router routes={this.routes} navigatorConfig={this.navigatorConfig} />
-        );
+        )
     }
+
 }
