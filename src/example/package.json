@@ -17,7 +17,6 @@
   "dependencies": {
     "@fastman2/component-animated-modal": "^1.0.0",
     "@fastman2/component-modal": "^1.0.0",
-    "@fastman2/component-navigator-web": "^1.0.0",
     "@fastman2/component-radio": "^1.0.0",
     "@fastman2/helper-sectionlist": "^1.0.0",
     "react": "16.3.1"

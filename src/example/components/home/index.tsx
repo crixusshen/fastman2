@@ -2,7 +2,7 @@
  * @Author: shenzhiwei
  * @Date: 2018-07-11 12:10:22
  * @LastEditors: shenzhiwei
- * @LastEditTime: 2018-07-11 13:10:25
+ * @LastEditTime: 2018-07-23 12:47:54
  * @Description: APP 首页
  */
 import React from "react";
@@ -32,7 +32,7 @@ class HomeScreen extends React.Component<{
         return (
             <ScrollView style={Styles.wrapper}>
                 <View style={Styles.menu}>
-                    <TouchableOpacity style={menuButtonStyle} onPress={() => this.props.navigation.navigate('ViewScreen', { name: 'fastman2', })}>
+                    <TouchableOpacity style={[menuButtonStyle, {backgroundColor: 'blue',}]} onPress={() => this.props.navigation.navigate('ViewScreen', { name: 'fastman2', })}>
                         <Text style={Styles.menuLabel}>{`View`}</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={menuButtonStyle} onPress={() => this.props.navigation.navigate('ScrollViewScreen')}>
